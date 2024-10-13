@@ -23,7 +23,7 @@ Administrators, developers, and security analysts can use this framework to bett
 * **Filtered Incident Review Links**: By utilizing the custom annotations, you can create direct links to filtered Incident Review pages that only display correlation searches for a specific lifecycle stage. For example:
   * A **DEV Incident Review** page showing only correlation searches tagged as DEV (in development).
   * A **PROD Incident Review** page displaying only correlation searches marked as PROD (in production).
-  * You can generate these filtered views by appending the appropriate filter to the Incident Review URL based on the annotation you want to target (e.g., `?annotation=DEV` for the DEV environment).
+  * You can generate these filtered views by appending the appropriate filter to the Incident Review URL based on the annotation you want to target. More information on [this page](https://docs.splunk.com/Documentation/ES/7.3.2/Admin/Customizemenubar#Add_a_link_to_a_filtered_view_of_Incident_Review).
 
 
 * **Streamlined Workflow**: The Incident Review page in ES can be filtered by annotation, ensuring that only searches in the desired phase are visible or triggered. This prevents development-related notables from affecting production workflows.
