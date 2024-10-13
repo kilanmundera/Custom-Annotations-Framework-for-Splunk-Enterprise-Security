@@ -33,7 +33,7 @@ Administrators, developers, and security analysts can use this framework to bett
 ## Installation Instructions
 
 ### 1. Download and Install the App:
-* Download the app package (`splunk_es_custom_annotations.spl`).
+* Download the app package (`SA-custom_annotations_framework_for_ES.spl`).
 * Log in to your Splunk instance and navigate to **Apps > Manage Apps**.
 * Click **Install app from file**, then select the `.spl` file and upload it.
 * Click **Install** to complete the process.
@@ -48,18 +48,13 @@ Administrators, developers, and security analysts can use this framework to bett
 * To **add new annotation values**, edit the `custom_annotations_framework_lookup` to include additional stages (e.g., QA, STAGING, etc.).
 * If you want to **rename the framework**, modify the `security_framework_lookup` lookup table to reflect the new name (e.g., "Deployment Phases Framework").
 
-### 4. Restart Splunk:
-* After installation and any customizations, it’s recommended to restart Splunk to ensure all configurations are applied.
-
-### 5. Verify Installation:
-* Once Splunk has restarted, ensure the app appears in **Apps > Manage Apps**.
+### 4. Verify Installation:
 * Open any Correlation Search and verify that a new dropdown menu under the _Annotations_ section includes your custom annotations.
 
 ## Customization Notes
 This framework is designed to be flexible:
 * **Add or Remove Annotations**: You can easily modify the available stages by updating the `custom_annotations_framework_lookup` lookup file.
-* **Change the Framework Name**: If your organization prefers different terminology, feel free to rename the framework in both the lookup and app configurations.
-* **Color Customization**: You can adjust the color used for each annotation by modifying the relevant entries in the lookup table (`#AB006B` represents the default color).
+* **Change the Framework Label**: If your organization prefers different terminology, feel free to rename the framework label in `security_framework_lookup`.
 
 ---
 
