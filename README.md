@@ -1,7 +1,8 @@
 # Custom Annotations Framework for Splunk Enterprise Security
-![alt text](https://github.com/kilanmundera/Custom-Annotations-Framework-for-Splunk-Enterprise-Security/blob/main/Screenshot.png?raw=true)
 ## Overview
-This Splunk application implements a **customizable annotation framework** that allows administrators to manage and track correlation searches through various stages. Users can tag correlation searches with custom **annotations** such as DEV, PREPROD, PROD, or DEPRECATED, reflecting their current phase in development, testing, production, or decommissioning. 
+This Splunk application implements a **customizable annotation framework** that allows administrators to manage and track correlation searches through various stages. Users can tag correlation searches with custom **annotations** such as DEV, PREPROD, PROD, or DEPRECATED, reflecting their current phase in development, testing, production, or decommissioning:
+
+![alt text](https://github.com/kilanmundera/Custom-Annotations-Framework-for-Splunk-Enterprise-Security/blob/main/Screenshot.png?raw=true)
 
 This framework is fully **customizable**, enabling you to add new annotation values, modify existing ones, or even rename the framework itself to fit the needs of your organization.
 
