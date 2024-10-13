@@ -1,0 +1,27 @@
+[app/ui]
+version = 9.2.0.1
+modtime = 1727430439.553179000
+
+[app/launcher]
+version = 9.2.0.1
+modtime = 1727430439.557640000
+
+[lookups/custom_annotations_framework_lookup.csv]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.2.0.1
+modtime = 1727443520.912185000
+
+[transforms/custom_annotations_framework_lookup]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.2.0.1
+modtime = 1727431576.740003000
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+version = 9.2.0.1
+modtime = 1727432032.955872000

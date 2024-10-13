@@ -1,0 +1,5 @@
+"annotation_value","description"
+"DEV","DEV: Detection under development. Will not be looked at by the detection team."
+"PREPROD","PREPROD: Will appear in the incident review for validation by the analysts."
+"PROD","PROD: The Correlation Search has been validated. Will appear in the PROD incident review."
+"DEPRECATED","DEPRECATED: The Correlation Search has been deactivated."
